@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+/* Utility classes */
+
+.container{
+    margin-inline: 10px;
+    padding-inline: 15px;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    padding-top: 35px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+h1{
+    font-size:2.5rem ;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.card{
+
+    width: 30%;
+    height: fit-content;
+    border: 1px solid;
+    margin: 10px;
+    flex-wrap: wrap;
+    
+}
+
+
+.text-head1{
+
+    text-align: right;
+    color:#ffffff;
+    background-color: #1365b6;
+    display: inline-block;
+    float: right;
+    clear: both;
+    position: relative;
+    border: 1px solid;
+    padding-inline: 10px 10px;
+}
+
+.text-head2{
+
+    text-align: right;
+    color:#ffffff;
+    background-color: #1365b6;
+    display: inline-block;
+    float: right;
+    clear: both;
+    position: relative;
+    border: 1px solid;
+    padding-inline: 10px 10px;
+}
+
+.text-head3{
+
+    text-align: right;
+    color:#ffffff;
+    background-color: #1365b6;
+    display: inline-block;
+    float: right;
+    clear: both;
+    position: relative;
+    border: 1px solid;
+    padding-inline: 10px 10px;
+}
+
+/* Tablet Breakpoints  */
+
+@media only screen and (max-width: 992px) {
+    
+.card{
+
+    width: 45%;
+    height: fit-content;
+    
+}
+
+    .card-3{
+        width: 100%;
+        height: fit-content;
+        padding: 0px !important;        
+    }
+}
+
+/* Mobile screen breakpoint  */
+
+@media only screen and (max-width: 600px) {
+
+    .card{
+
+        width: 90%;
+        height: fit-content;
+    }
+    
+}
